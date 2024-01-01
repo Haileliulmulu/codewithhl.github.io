@@ -1,0 +1,321 @@
+@import url('https://fonts.googleleapis.com/css2/font-family=Nunito:wght@200;300;400;600&display=swap');
+
+body{
+    background-color: black;
+}
+.head{
+    background-color: rgb(122, 120, 116);
+    height: 145px;  
+    border-radius: 15px; 
+}
+.recomendation ul.red{
+    color:goldenrod;
+}
+.recomendation ul.red1{
+    color:goldenrod;
+}
+.recomendation ul.red2{
+    color:goldenrod;
+}
+.recomendation ul.red3{
+    color:goldenrod;
+}
+a:hover{
+    color: black;
+        cursor: pointer;
+        background: #ffc000;
+        box-shadow: 0 0 5px #ffc000,
+                    0 0 20px #ffc000,
+                    0 0 60px #ffc000;
+}
+.head h1{
+    text-transform: uppercase;
+    text-align:center;
+    color: goldenrod;
+    font-size: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align:center;
+    color:goldenrod;
+font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.bod h1{
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+    font-size: 1.5rem;
+    border:solid;
+    border-color:goldenrod;
+    width: fit-content;
+    background-color:rgb(122, 120, 116);
+    font-family: 'Times New Roman', Times, serif;
+}
+.bod ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skill h1{
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+    font-size: 1.5rem;
+    border:solid;
+    border-color:goldenrod;
+    width: fit-content;
+    background-color:rgb(122, 120, 116);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.skill ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+     
+} 
+.internship ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.internship h1{
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+    font-size: 1.5rem;
+    border:solid;
+    border-color:goldenrod;
+    width: fit-content;
+    background-color:rgb(122, 120, 116);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.internships ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.internships h1{
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+    font-size: 1.5rem;
+    border:solid;
+    border-color:goldenrod;
+    width: fit-content;
+    background-color:rgb(122, 120, 116);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.recomendation h1{
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+    font-size: 1.5rem;
+    border:solid;
+    border-color:goldenrod;
+    width: fit-content;
+    background-color:rgb(122, 120, 116);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.recomendation ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.framework h1{
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+    font-size: 1.5rem;
+    border:solid;
+    border-color:goldenrod;
+    width: fit-content;
+    background-color:rgb(122, 120, 116);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.framework ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+
+
+@media screen and(max-width:1200px)
+   {
+
+
+    .skill ul{
+        margin-left:270px;
+        color: white;
+        font-size: 1.1rem;
+         
+    }
+    
+    .dropdown-content a{  
+        font-size:15px;   
+    }
+    
+   }
+   @media screen and(max-width:720px)
+   {
+    .skill ul{
+        margin-left:270px;
+        color: white;
+        font-size: 1.1rem;
+         
+    }
+    .dropdown-content a{  
+    font-size:10px;   
+}
+    .head{
+       
+        background-color: rgb(122, 120, 116);
+        height: 100px;
+        
+    }
+    .head h1{
+        text-transform: uppercase;
+        text-align:center;
+       
+        font-size: 2rem;
+
+    
+    }
+    
+    .bod ul{
+        margin-left:20px;
+        color: white;
+        font-size: 80%;
+         
+    }
+    
+    p{ 
+        align-items: left;
+        font-size: 1rem;
+        text-align: left;
+       
+    }
+    .skill ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.3rem;
+     
+}
+
+    
+
+    
+   }
+@media screen and(max-width:480px){
+   
+    .head{
+        background-color: rgb(122, 120, 116);
+        height: 100px;
+        
+    }
+    .head h1{
+        text-transform: uppercase;
+        text-align:center;
+       
+        font-size: 1.2rem;
+    
+    }
+    
+    .bod ul{
+
+        margin-left:20px;
+        color: white;
+        font-size: 0.8rem;
+         
+    }
+   p{
+        align-items: left;
+        font-size: 0.5rem;
+        text-align: left;
+    }
+    .skill ul{
+    margin-left:20px;
+    color: white;
+    font-size: 1.1rem;
+     
+}
+.dropdown-content a{
+
+       
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-size:10px;
+    border-radius: 25%;
+    
+ }
+
+}
+.dropbtn{
+
+color:#333;
+border:none;
+background-color:transparent;
+}
+
+.dropdown{
+display: inline-block;
+}
+.dropdown-content{
+display:none;
+
+position: absolute;
+background-color: transparent;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+
+z-index: 1;
+}
+.dropdown-content a{
+
+color:white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+font-size:15px;
+border-radius: 15%;
+
+}
+.dropdown-content a:hover {
+background-color: rgb(66, 66, 64);
+border-color: var(--yellow);
+}
+.dropdown:hover .dropdown-content{
+display:inline-flex;
+top:25px;
+flex-wrap: wrap;
+}
+
+.dropdown img{
+
+width:50px;
+height: 50px;
+border-radius: 60px;
+background-color: transparent;
+}
+.dropdown img:hover{
+transform:scale(1.2);
+
+}

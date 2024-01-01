@@ -1,0 +1,274 @@
+@import url('https://fonts.googleleapis.com/css2/font-family=Nunito:wght@200;300;400;600&display=swap');
+:root{
+    --yellow:#f9ca24;
+}
+
+
+*{
+    font-family:'Nunito', sans-serif;
+    margin:0;padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  
+    transition: all .2s linear;
+}
+*::selection{
+    background:var(--yellow);
+    color:#333;
+}
+html{
+    font-size:63.5%;
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+html::-webkit-scrollbar-track{
+    background: #222;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--yellow);
+}
+body{
+    background: #111;
+    overflow:hidden;
+    padding-left: 35rem;
+}
+section{
+    min-height:100vh;
+    padding:1rem;
+}
+.btn{
+    width: 40rem;;
+    padding:.7rem 3rem;
+    background: #333;
+    color:#fff;
+    cursor:pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background: var(--yellow );
+}
+header{
+    position:absolute;
+    top:0; left:0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column;
+    text-align: center;
+}
+header .user img{
+    height: 23.5rem;
+    width: 21rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .2rem solid var(--yellow);
+
+}
+header .user .name{
+    font-size: 3.5rem;
+    font-style: italic;
+    font-family: cursive;
+    color:rgb(249, 246, 252);
+}
+header .user .post{
+    font-size: 2rem;
+    color:yellow;
+}
+header .navbar{
+    width: 100%;
+
+}
+header.navbar ul{
+    list-style: none;
+    padding:1rem 3rem;
+}
+header .navbar ul li a{
+    display:block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size:2rem;
+    border-radius: 5rem;
+}
+
+header .navbar ul li a:hover{
+    background: var(--yellow);
+}
+
+
+
+ @media screen and (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+    .home{
+        padding:1rem 4erm;
+    }
+}
+@media screen and(max-width:900px){
+    .title{
+        width: 100%;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .service{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:767px){
+    header{
+        right:-100%;
+       width:30rem;
+    }
+  
+    
+    header.toggle{
+        left:0%;
+    }
+    body{
+        padding:0;
+    }
+    p{
+        font-size: small;
+    }
+    .social-links{
+       margin-right: 10px;
+   }
+   .home{
+    padding:0;
+    font-size: 1.2rem;
+    justify-content: center;
+    display: flex;
+    margin-left:17rem;
+}
+.home h3{
+    font-size: 3rem;
+
+}
+.home h1{
+    font-size: 3.5rem;
+
+}
+.home p{
+    font-size:1.8rem;
+}
+
+}
+.navbar p{
+    color:goldenrod;
+    font-size: 1.5rem;
+}
+  
+
+
+
+.home{
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+.home h3{
+    font-size:5rem;
+    color:#fff;
+}
+.home h1{
+    font-size:3.5rem;
+    color:goldenrod;
+    
+}
+
+.home p{
+font-family:monospace;
+font-style:oblique;
+    font-size:1.8rem;
+    color:black;
+    padding:0.8rem 0;
+}
+
+.home p span{
+    display: block;
+    opacity:block;
+    animation: reveal 1s forwards var(--d);
+
+}
+
+@keyframes reveal{
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        color:white;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+.social-links{
+    transform:rotate(0deg);
+    position:absolute ;
+    left: 505px;
+    bottom: 20px;
+    animation:moveup 0.5s linear 1;
+    animation-delay: 3s;
+    Visibility: hidden;
+    animation-fill-mode: forwards;
+    color: orangereds;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+@keyframes moveup{
+    0%{
+        transform: translateY(100px) rotate(0deg);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0) rotate(0deg);
+        visibility: visible;
+    }
+ }
+.social-links a{
+    text-decoration: none;
+    color:white;
+    padding-right: 25px;
+    font-style: italic;
+    font-size: 15px; 
+  
+}
+.social-links a:hover{
+    color:yellow;
+    transform:scale(1.2);
+
+}
+.social-links img{
+   height: 45px;
+   width: 45px;
+    margin-left: 5px;
+   border-radius: 50%;
+   border: .3rem solid var(--yellow);
+  
+}
+
+
+
