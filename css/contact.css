@@ -195,7 +195,7 @@ a:hover{
                     0 0 20px #ffc000,
                     0 0 60px #ffc000;
 }
-@media (max-width:1400px){
+@media (max-width:1200px){
     html{
         font-size: 55%;
     }
@@ -243,7 +243,7 @@ a:hover{
    
 
 }
-@media (max-width:480px){
+@media (max-width:500px){
     header{
         right:-100%;
     }
@@ -262,9 +262,13 @@ a:hover{
     #contact .contact-item {
         width: 95%;
         padding: 10px;
-        margin: 15px;
+        margin: 1rem;
         
     }  
+   .contact container{
+       margin-left: -1rem;
+
+   }
     .section-title {
         font-size: 2.5rem;
         font-weight: 300;
