@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="keywords" content="webdevelopment, back-end, fullstack, web, network troubleshooting, software installation, hardware repair, cybersecurity services, remote support, IT consulting, tech support services">
+    <meta charset="UTF-8">
+    <title>Haileliul Mulu</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="icon" href="aa.png" type="image/x-icon">
+</head>
+<body>
+    <header id="myHeader">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#vision">About</a>
+            <a href="#knowledge">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="openmenu"><span></span><span></span><span></span></button>
+        </nav>
+    </header>
+    <div id="page">
+        <section id="home">
+            <img class="myphoto" src="phh1.jpg" alt="Haileliul Mulu">
+            <h2 class="skills">
+                <span>Full Stack Developer</span>
+                <span>Front End Web Instructor</span>
+                <span>Teacher</span><br>
+                Hello, I'm Haileliul Mulu
+            </h2>
+            <p>A dedicated full stack developer and programming instructor with a passion for teaching and technology. With extensive experience in both front-end and back-end development, I specialize in creating dynamic and responsive web applications. My goal is to equip students with the skills they need to thrive in the tech industry. Welcome to my portfolio, where I share my expertise and showcase my projects!</p>
+        </section>
+        <section id="vision">
+            <p><span>WHO AM I?</span><br><br>A full stack developer and programming instructor with a passion for coding and teaching. I specialize in creating dynamic web applications and guiding students in their programming journeys. With a strong foundation in both front-end and back-end technologies, I enjoy solving complex problems and building efficient solutions. My journey in tech began with an enthusiasm for innovation and a commitment to sharing knowledge. I thrive in collaborative environments where I can mentor aspiring developers and enhance their skills. Whether developing applications, conducting workshops, or providing hands-on training, I am dedicated to fostering a love for programming. Thank you for visiting my portfolio, and I look forward to connecting with you!</p>
+            <button onclick="downloadRes()">&#x1F4C4; Download Resume &#x2B07;</button><br>
+            <span2 style="color: goldenrod;">I can make this awesome things</span2>
+        </section>
+        <section class="gallery">
+            <div class="gallery-container">
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="fw (2).png" alt="Routing and Switching">
+                    </div>
+                    <div class="custom-content">
+                        <h2>Full stack Web development</h2>
+                        <p class="description">I specialize in creating responsive and user-friendly web applications using modern frameworks and technologies.</p>
+                        <span class="experience">Experienced</span>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="sa.jpeg" alt="System Administration">
+                    </div>
+                    <div class="custom-content">
+                        <h2>System Administration</h2>
+                        <p class="description">I manage operating systems and perform regular updates to keep systems secure and efficient.</p>
+                        <span class="experience">Experienced</span>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="wd.png" alt="Software Installation">
+                    </div>
+                    <div class="custom-content">
+                        <h2>Web Designing</h2>
+                        <p class="description">I create visually appealing and user-centered designs, focusing on aesthetics and usability to enhance the overall user experience.</p>
+                        <span class="experience">Experienced</span>
+                    </div>
+                </div>
+                <div class="custom-card">
+                    <div class="img-box">
+                        <img src="pm.png" alt="Network Security">
+                    </div>
+                    <div class="custom-content">
+                        <h2>Project Management</h2>
+                        <p class="description">I excel in leading cross-functional teams, managing project timelines, and ensuring successful project delivery within scope and budget.</p>
+                        <span class="experience">Experienced</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="knowledge">
+            <h1>MY SKILLS</h1>
+            <p>Experienced full stack web developer skilled in a wide range of technologies, including front-end frameworks and back-end technologies. Committed to creating robust, scalable web applications with an emphasis on clean code and intuitive user experiences. Feel free to download my CV for more details and examples of my work.</p>
+            <button onclick="downloadCV()">Download CV &#x2B07;</button>
+            <h3>SKILL SHOWCASE</h3>
+            <div class="skill-buttons">
+                <button onclick="showSkills('frontend')"> &#x1F5A5; Front-End Skills</button>
+                <button onclick="showSkills('backend')"> &#x1F4BB; Back-End Skills</button>
+                <button onclick="showSkills('others')"> &#x1F6E0; Other Skills</button>
+                <button onclick="showSkills('teaching')"> &#x1F4DA; Teaching Skills</button>
+                <button onclick="redirectToEnrollment()" style="border-bottom:5px solid goldenrod; color: goldenrod; border-top:5px solid goldenrod;"> &#x1F4DA; Apply to Enrollment</button>
+            </div>
+            <div id="frontend" class="skill-section">
+                <h3>FRONT-END SKILLS</h3>
+                <h5>HTML <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+                <h5>CSS <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+                <h5>JavaScript <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 75%;"></div>
+                </div>
+                <h5>React <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div id="backend" class="skill-section" style="display: none;">
+                <h3>BACK-END SKILLS</h3>
+                <h5>Node.js <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 80%;"></div>
+                </div>
+                <h5>PHP <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+                <h5>SQL <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+                <h5>MySQL <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div id="others" class="skill-section" style="display: none;">
+                <h3>OTHER SKILLS</h3>
+                <h5>Cloud Computing <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 75%;"></div>
+                </div>
+                <h5>Project Management <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                </div>
+                <h5>Networking <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div id="teaching" class="skill-section" style="display: none;">
+                <h3>I have Teaching Experience In</h3>
+                <h5>Front-end Web Development <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+                <h5>Back-End Web Development <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                </div>
+                <h5>Python Programming (for Kids & Adults) <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                </div>
+                <h5>Java Programming <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 75%;"></div>
+                </div>
+                <h5>JavaScript Programming <span>(Intermediate)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 75%;"></div>
+                </div>
+                <h5>MySQL <span>(Advanced)</span></h5>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width: 95%;"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function showSkills(section) {
+                document.querySelectorAll('.skill-section').forEach(function(skillSection) {
+                    skillSection.style.display = 'none';
+                });
+                document.getElementById(section).style.display = 'block';
+            }
+            function redirectToEnrollment() {
+                window.location.href = 'enrolment.html';
+            }
+        </script>
+        <section id="projects">
+            <h1>MY PROJECTS</h1>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="image-box">
+                        <img src="Capture.PNG" alt="Debremarkos University Inventory Management System">
+                    </div>
+                    <div class="project-content">
+                        <h2>Burger and Pizza house website</h2>
+                        <p>The system is practically addressing and advertising the burger and pizza house with the best outstanding view, in this static website but with the performance of editing pricing menus feature to the owner of the house. I think you can visit the site now! Just click the link below</p>
+                    </div>
+                    <button style="background-color: #007BFF; width: 80px; border-radius: 5px;">
+                        <a style="color: white; text-decoration: none;" href="https://my-burger-github-io-3wmh.vercel.app" class="spinner-button">Visit</a>
+                    </button>
+                </div>
+                <div class="project-card">
+                    <div class="image-box">
+                        <img src="Account managment.PNG" alt="Debremarkos University Inventory Management System">
+                    </div>
+                    <div class="project-content">
+                        <h2>Debremarkos University Inventory Management System</h2>
+                        <p>I developed this as a final year project, implementing the ASP.Net framework. This system improves inventory management practices at Debremarkos University.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="image-box">
+                        <img src="pic.png" alt="Automatic Door Controlled by Button">
+                    </div>
+                    <div class="project-content">
+                        <h2>Automatic Door Controlled by Button</h2>
+                        <p>This system is built using a modern technology implemented in a PIC microcontroller.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="image-box">
+                        <img src="booking.png" alt="Hotel Booking Desktop App">
+                    </div>
+                    <div class="project-content">
+                        <h2>Hotel Booking Desktop App</h2>
+                        <p>A desktop application designed for efficient and secure hotel bookings, managing room and customer information.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="image-box">
+                        <img src="mallad.PNG" alt="Mall Advertisement and Service Information System">
+                    </div>
+                    <div class="project-content">
+                        <h2>Mall Advertisement and Service Information System</h2>
+                        <p>A system for malls to advertise using an attractive website, addressing the complexities of modern shopping centers.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="image-box">
+                        <img src="oes.PNG" alt="Online Examination System">
+                    </div>
+                    <div class="project-content">
+                        <h2>Online Examination System</h2>
+                        <p>An Online Examination System designed to facilitate assessments through an intuitive platform, enhancing the learning experience for students and educators alike.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>CONTACT INFORMATION</h1>
+            <p>Feel free to reach out to me using any of the following methods:</p>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone">
+                            <a href="tel:0985576273">
+                                <img src="calling.png" style="width: 50px; height: 50px; border: 1px solid goldenrod; border-radius: 50%;">
+                            </a>
+                        </i>
+                        <span>
+                            <a href="tel:0985576273" title="my phone number">(+251) 985576273</a>
+                        </span>
+                    </div>
+                    <div class="info-item">
+                        <i>
+                            <a href="tel:0705066273">
+                                <img src="calling.png" style="width: 50px; height: 50px; border: 1px solid goldenrod; border-radius: 50%;">
+                            </a>
+                        </i>
+                        <span>
+                            <a href="tel:0705066273" title="my optional phone number">(+251) 705066273</a>
+                        </span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope">
+                            <a href="mailto:haileliulmulu27@gmail.com">
+                                <img src="gmail.png" style="width: 50px; height: 50px; border: 1px solid goldenrod; border-radius: 50%;">
+                            </a>
+                        </i>
+                        <span>
+                            <a href="mailto:haileliulmulu27@gmail.com" title="my email address">haileliulmulu27@gmail.com</a>
+                        </span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope">
+                            <a href="mailto:haileliulmulu@gmail.com">
+                                <img src="gmail.png" style="width: 50px; height: 50px; border: 1px solid goldenrod; border-radius: 50%;" alt="LinkedIn">
+                            </a>
+                        </i>
+                        <span>
+                            <a href="mailto:haileliulmulu@gmail.com" title="my optional email address">haileliulmulu@gmail.com</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h2>SEND MESSAGE</h2>
+                    <form id="contactForm">
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        <textarea id="message" placeholder="Type your message here... " name="message" required></textarea>
+                        <button type="submit" style="margin-left: 40px;">Send Email</button>
+                        <button type="reset" style="margin-left: 40px;">Reset</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-media">
+                <h1>SOCIAL MEDIA</h1>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/haileliul.mulu.2023">
+                        <img src="facbook.png" alt="Facebook">
+                    </a>
+                    <a href="https://t.me/Liulmrkonen" class="targeted-links" data-link-location="https://t.me/Liulmekonen">
+                        <img src="telegram.png" alt="Telegram">
+                    </a>
+                    <a href="https://www.tiktok.com/@omicron_technology" class="targeted-links" data-link-location="https://www.tiktok.com/@omicron_technology">
+                        <img src="tiktok.png" alt="TikTok">
+                    </a>
+                    <a href="https://www.instagram.com/haileliulmu?igsh=YzljYTk1ODg3Zg==" class="targeted-links">
+                        <img src="insta.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/haileliul-mulu-26283a297/" class="targeted-links" data-link-location="https://www.linkedin.com/in/haileliul-mulu-26283a297/">
+                        <img src="link.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <p style="text-align: center; font-size: 16px; color: #ffffff; background-color: transparent; font-family: 'Courier New', Courier, monospace; padding: 10px; border-radius: 5px; margin-top: 20px;">
+                All rights reserved &copy; Haileliul Mulu 2025
+            </p>
+        </section>
+    </div>
+    <script>
+        function myfu() {
+            window.alert("The account is not active now");
+            location.href='index.html';
+        }
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('mouseover', function() {
+                window.status = '';
+            });
+        });
+    </script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const firstName = document.getElementById('name').value;
+            const message = document.getElementById('message').value;
+            const email = 'haileliulmulu27@gmail.com';
+            const nameRegex = /^[A-Za-z\s-]+$/;
+            const messageRegex = /^[A-Za-z0-9\s.,?!"'-]*$/;
+            if (!nameRegex.test(firstName)) {
+                alert("Invalid first name. Please use text characters only.");
+                return;
+            }
+            if (!messageRegex.test(message) || message.includes('http') || message.includes('https')) {
+                alert("Invalid message. Please avoid links and use text characters only.");
+                return;
+            }
+            const encodedName = encodeURIComponent(firstName);
+            const encodedMessage = encodeURIComponent(message);
+            const mailtoLink = `mailto:${email}?subject=Message from ${encodedName}&body=Name: ${encodedName}%0AMessage: ${encodedMessage}`;
+            window.location.href = mailtoLink;
+            this.reset();
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
